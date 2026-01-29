@@ -71,3 +71,20 @@ USER.md
 
 # local tooling
 .serena/
+
+
+# --- Secrets (NEVER UPLOAD THESE) ---
+.env
+.moltbot/
+moltbot.json
+secrets.json
+
+# --- Dependencies & Logs ---
+node_modules/
+logs/
+tmp/
+dist/
+.DS_Store
+
+# --- Your Personal Scripts ---
+WakeWolfie.bat
